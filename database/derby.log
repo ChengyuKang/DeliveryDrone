@@ -1,0 +1,13 @@
+Sat Jan 28 16:27:06 GMT 2023 : Apache Derby 网络服务器 - 10.15.2.0 - (1873585) 已启动并准备接受端口 1527 上的连接
+----------------------------------------------------------------
+Sat Jan 28 16:28:16 GMT 2023:
+正在使用类加载程序 jdk.internal.loader.ClassLoaders$AppClassLoader@6d06d69c 引导数据库
+目录 C:\Users\16695\Desktop\ilp\database\derbyDB 中的 Derby 版本 The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585) 实例 a816c00e-0185-f934-3519-0000456a24f2
+已从 file:/C:/Users/16695/Desktop/ilp/Derby/db-derby-10.15.2.0-bin/lib/derby.jar 加载
+java.vendor=Oracle Corporation
+user.dir=C:\Users\16695\Desktop\ilp\database
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\16695\Desktop\ilp\database
+数据库类加载程序已启动 - derby.database.classpath=''
