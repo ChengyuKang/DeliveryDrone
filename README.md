@@ -2,7 +2,7 @@
 
 The DeliveryDrone system is a software solution designed to efficiently plan and execute drone deliveries within the University of Edinburgh campus area. The system receives orders from a catalogue and generates optimized delivery routes to maximize profits while adhering to no-fly zones.
 
-2.Description
+# Description
 Main function is in the App class, it is responsible for running the whole drone
 delivery programme, the main function calls some other methods from the other
 classes, it first calls methods from classes in utils to get connection to
@@ -13,6 +13,19 @@ of the drone’s flying, and will write the calculated fly path into the geojson
 the static write file function in main.
 
 # Installation
+To install the DeliveryDrone system, follow these steps:
+
+1.Clone the repository to your local machine.
+2.Install the required database and web server listed in the README file.
+3.Assuming that your project is named ilp then when compiled with the Maven build system your Java application will produce an über JAR file in the target folder of your project named ilp-1.0-SNAPSHOT.jar.
+
+If you run this JAR file with the command
+
+java -jar target/ilp-1.0-SNAPSHOT.jar 15 09 2022 80 1527
+
+it should read the lunch orders for the date 15/09/2022 from the database, connecting at port 1527. It should
+read the menus from the website, connecting to the web server at port 80. 
+
 
 
 
