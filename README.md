@@ -12,6 +12,12 @@ main function will create tables in database to store the data of the whole proc
 of the drone’s flying, and will write the calculated fly path into the geojson file using
 the static write file function in main.
 
+# Functionality
+
+The system retrieves the order information from a database every day at 11:59 a.m. and generates a delivery route within one minute. Users can place their orders before this deadline and provide a campus address as their pickup location. The drone will then follow the generated route to deliver the orders and return to Appleton Tower within 1500 moves.
+
+The system takes into account designated no-fly zones within the campus area and ensures that the drone only flies in specific areas, avoiding any restricted areas.
+
 # Installation
 To install the DeliveryDrone system, follow these steps:
 
@@ -25,6 +31,10 @@ java -jar target/ilp-1.0-SNAPSHOT.jar 15 09 2022 80 1527
 
 it should read the lunch orders for the date 15/09/2022 from the database, connecting at port 1527. It should
 read the menus from the website, connecting to the web server at port 80. 
+
+4. You can find the generated routes for the drone in your prohject folder with .geojson as a suffix, here is an example of the generated route
+![image](https://github.com/ChengyuKang/DeliveryDrone/assets/80816430/c46795c1-a148-495c-88b0-114feb71af43)
+
 
 
 
