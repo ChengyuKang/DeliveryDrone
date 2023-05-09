@@ -16,10 +16,10 @@ the static write file function in main.
 To install the DeliveryDrone system, follow these steps:
 
 1.Clone the repository to your local machine.
-2.Install the required database and web server listed in the README file.
-3.Assuming that your project is named ilp then when compiled with the Maven build system your Java application will produce an über JAR file in the target folder of your project named ilp-1.0-SNAPSHOT.jar.
 
-If you run this JAR file with the command
+2.Install the required database and web server listed in the README file.
+
+3.Assuming that your project is named ilp then when compiled with the Maven build system your Java application will produce an über JAR file in the target folder of your project named ilp-1.0-SNAPSHOT.jar.If you run this JAR file with the command
 
 java -jar target/ilp-1.0-SNAPSHOT.jar 15 09 2022 80 1527
 
